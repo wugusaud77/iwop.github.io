@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'NanumSquareR';
+    src: url('../assets/NanumSquareR.ttf') format('truetype'),
+    url('../assets/NanumSquareR.eot') format('embedded-opentype');
+}
+@font-face{
+    font-family: 'LEIXO';
+    src: url('../assets/LEIXO.ttf') format('truetype'),
+    url('../assets/LEIXO.eot') format('embedded-opentype');
+}

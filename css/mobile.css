@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+    .iwop__main *{
+        font-size: 7em;
+    }
+    .quickMenu{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+
+        position: absolute;
+        top: 70px;
+        right: 0;
+
+        width: 200px;
+        height: 200px;
+
+        background-color: #36AFFF;
+
+        transition: 0.5s;
+        transform-origin: top right;
+    }
+    .quickMenu__mobile{
+        display: inline-block;
+    }
+    .quickMenu--active{
+        display: flex;
+    }
+    .quickMenu--disable{
+        display: none;
+    }
+    .iwop__startPage__spelling{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .iwop__startPage__club{
+        font-size: 1.5em;
+    }
+    .iwop__history{
+        width: 100%;
+    }
+    .iwop__curriculum{
+        width: 100%;
+    }
+    .iwop__curriculum__list{
+        width: 100%;
+    }
+    .iwop__curriculum__item{
+        width: 100%;
+        min-width: 300px;
+
+        padding: 10px;
+    }
+    .iwop__awards__list{
+        width: 100%;
+    }
+    .iwop__qna__item{
+        widows: 100%;
+    }
+}
