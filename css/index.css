@@ -411,6 +411,27 @@ section{
 
     width: 80%;
 }
+/* 문의 */
+.iwop__contactus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.iwop__contacus__item{
+    margin: 20px 0;
+}
+.iwop__contactus__image{
+    transition: 0.5s;
+
+    width: 80px;
+    height: 80px;
+
+    margin: 0 30px;
+}
+.iwop__contactus__image:hover{
+    transform: rotate(5deg) scale(1.1);
+}
 
 /* footer */
 .iwop__footer{

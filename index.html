@@ -39,12 +39,10 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/mobile.css">
 
-
     <title>IWOP</title>
 </head>
 
 <body>
-    <img src="./assets/iwop.png" alt="IWOP" style="display:none;">
     <div id="layout">
         <header class="iwop__startPage">
             <div class="iwop iwop__main iwop--active" style="color:white">
@@ -93,6 +91,9 @@
                     </li>
                     <li class="quickMenu__item">
                         <a class="quickMenu__item__content" onclick="gotoScroll('iwop__qna')">QnA</a>
+                    </li>
+                    <li class="quickMenu__item">
+                        <a class="quickMenu__item__content" onclick="gotoScroll('iwop__contactus')">문의</a>
                     </li>
                 </ul>
             </div>
@@ -194,7 +195,6 @@
                         <li>HarryPotter:Hocrux - 대상 (김은희)</li>
                         <li>QuizTree - 은상 (송정우)</li>
                         <li>QuizTree - 은상 (신재헌)</li>
-
                         <li>
                             <h4>기타</h4>
                         </li>
@@ -320,8 +320,19 @@
                 <p class="content--normal scrollAnimation">A. 선린 1학년이면 어떤 과든 지원 가능합니다!</p>
             </article>
             <article class="iwop__qna__item">
-                <div class="title--small scrollAnimation">Q. .5기 뽑나요?</div>
+                <div class="title--small scrollAnimation">Q. .5기(점오기) 뽑나요?</div>
                 <p class="content--normal scrollAnimation">A. 아쉽게도 지원을 받지 않습니다.</p>
+            </article>
+        </section>
+        <section class="iwop__contactus">
+            <h2 class="title--normal">CONTACT US</h2>
+            <article class="iwop__contacus__item content--normal">
+                부장 : 박종훈 (010-7207-8667)<br>
+                쀼장 : 방진혁 (010-2784-1970)
+            </article>
+            <article class="iwop__contacus__item">
+                <a href="https://www.facebook.com/sunrinIwop/"><img src="./assets/facebook-logo.png" class="iwop__contactus__image"></a>
+                <a href="https://github.com/IWOP/iwop.github.io"><img src="./assets/git-logo.png" class="iwop__contactus__image"></a>
             </article>
         </section>
         <footer class="iwop__footer">
