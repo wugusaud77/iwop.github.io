@@ -437,7 +437,7 @@ section{
 .iwop__contactus__image:hover{
     transform: rotate(5deg) scale(1.1);
 }
-.iwop__contacus__button{
+.iwop__contactus__button{
     transition: 0.5s;
 
     cursor: pointer;
@@ -453,7 +453,7 @@ section{
     color: #36AFFF;
     font-size: 1.5em;
 }
-.iwop__contacus__button:hover{
+.iwop__contactus__button:hover{
     background-color: #36AFFF;
     color: white;
 }

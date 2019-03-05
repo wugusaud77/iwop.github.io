@@ -56,4 +56,11 @@
     .iwop__qna__item{
         widows: 100%;
     }
+    .iwop__contactus__image{
+        margin: 20px;
+    }
+    .iwop__contactus__button{
+        margin: 0;
+        padding: 20px 80px;
+    }
 }
