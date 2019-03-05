@@ -206,7 +206,12 @@ section{
 
     margin: 100px auto;
 
-    width: 50%;
+    width: 60%;
+}
+.iwop__history__content{
+    text-align:center;
+    word-break: keep-all;
+    width: 100%;
 }
 
 /* 시작 페이지 */
