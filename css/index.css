@@ -485,3 +485,7 @@ section{
 .iwop__footer__link{
     color: white;
 }
+
+.mobile-only{
+    display: none;
+}

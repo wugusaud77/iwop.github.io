@@ -63,4 +63,8 @@
         margin: 0;
         padding: 20px 80px;
     }
+
+    .mobile-only{
+        display: inline;
+    }
 }
