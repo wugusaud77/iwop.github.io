@@ -457,6 +457,14 @@ section{
     background-color: #36AFFF;
     color: white;
 }
+.iwop__contacus__button:disabled{
+    color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+}
+.iwop__contacus__button:disabled:hover {
+    background-color: #AAAAAA;
+    color: white;
+}
 
 /* footer */
 .iwop__footer{
