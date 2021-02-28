@@ -88,9 +88,9 @@ function toggleQuickMenu() {
 // 슬라이더
 var slider = document.getElementsByClassName('iwop__work__list')[0]
 var sliderItem = slider.children
-var slideIndex = 0
+var slideIndex = -1
 var timer = setInterval(function(){
-    slideIndex = (slideIndex+1)%5
-    var px = -400 * (slideIndex + 2)
+    slideIndex = (slideIndex+1)%9
+    var px = -400 * (slideIndex)
     slider.style.marginLeft = px+"px"
 },3000)
